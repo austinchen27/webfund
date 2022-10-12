@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#search-button {
+    color:lightseagreen;
+    background-color: rgb(245, 245, 245);
+    border: 2px solid lightseagreen;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    padding: 8px;
+    margin: 8px;
+}
+
+#plus-button {
+    color: white;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 28pt;
+    margin: 8px;
+}
+
+#create-account {
+    color:white;
+    background-color:rgb(27, 64, 185);
+    border:2px solid black;
+    box-shadow: 3px 3px 2px 1px black;
+    display:inline;
+    margin: 8px;
+    padding: 10px 20px;
+}
