@@ -1,0 +1,37 @@
+h1 {
+    color: #474855;
+    display: flex;
+    justify-content: center;
+}
+
+.octocat {
+    height: 200px;
+}
+
+#row-1 {
+    background-color: #5AC5F8;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 15px;
+}
+
+#row-2 {
+    background-color: #D1A2C3;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 15px; 
+}
+
+#row-3 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 15px;
+}   
+
+h4 {
+    text-align: center;
+}
