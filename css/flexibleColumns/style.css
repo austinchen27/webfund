@@ -1,21 +1,33 @@
 * {
-    color: white
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: large;
+
 }
 
 .row {
-    background-color: rgb(95,195,160);
     display: flex;
-    justify-content: space-evenly;
+    gap: 10px; 
+    margin-bottom: 10px;
 }
 .col {
-    padding: 20px;
-
+    background-color: rgb(102,162,171);
+    display: flex;
+    padding: 10px;
+    flex: 1;
+    border-radius: 20px;
 }
 .col-2 {
+    background-color: rgb(102,162,171);
+    flex: 2;
+    padding: 10px;
+    border-radius: 20px;
 
 }
 .col-3 {
+    background-color: rgb(102,162,171);
     border-radius: 20px;
-    padding: 25px;
-    gap: 10px;
+    padding: 10px;
+    flex: 3;
 }
