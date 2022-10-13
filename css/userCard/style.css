@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flex-content {
+    display: flex;
+    justify-content: center;
+}
+
+.outer-box {
+    border: 2px solid grey;
+    width: 500px;
+}
+
+#profile-header {
+    background-color: #14A2B8;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+#profile-header img {
+    margin: 30px;
+    height: 60px;
+}
+
+.profile-content {
+    margin-left: 30px;
+}
+
+.flex-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex-icon img {
+    height: 20px;
+}
