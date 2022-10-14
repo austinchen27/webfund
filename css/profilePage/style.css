@@ -1,0 +1,201 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.whole-page {
+    display: flex;
+    gap: 40px;
+    justfiy-content: center;
+
+}
+
+.container-bio {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    margin-top: 30px;
+    padding-left: 45px; 
+}
+
+.container-network {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+/* nav bar */
+.nav {
+    color: white;
+    background-color: rgb(72, 72, 72);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+}
+.nav-links {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    background-color: #14A2B8;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+
+/* user card */
+
+.outer-box {
+    border: 2px solid grey;
+    width: 500px;
+}
+
+#profile-header {
+    background-color: #14A2B8;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+#profile-header img {
+    margin: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.profile-content {
+    margin-left: 30px;
+}
+
+.flex-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex-icon img {
+    height: 20px;
+}
+
+/* education card */
+.flex-education {
+    border: 2px solid black;
+    width: 500px;
+}
+
+.education-header {
+    background-color: orange;
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    padding-left: 30px; 
+}
+
+.education-title {
+    font-size: 14pt;
+    /* margin-left: 23pt; */
+    font-weight: bold; 
+}
+
+.education-content {
+    margin-left: 30px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+.bootcamp {
+    margin-bottom: 7px; 
+}
+
+.university {
+    margin-bottom: 7px;
+}
+
+.highschool {
+    margin-bottom: 7px;
+}
+
+.bootcamp h4 {
+    color: lightskyblue;
+}
+
+.bootcamp h5 {
+    color: gray;
+}
+
+.university h4 {
+    color: lightskyblue;
+}
+
+.university h5 {
+    color: gray;
+}
+
+.highschool h4 {
+    color: lightskyblue;
+}
+
+.highschool h5 {
+    color: gray;
+}
+
+.container-network {
+    gap: 20px;
+}
+
+/* container-network */
+.container-network img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+/* request card */
+
+.request-header {
+    background-color: palegreen;
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    padding-left: 30px; 
+}
+
+.flex-pending {
+    border: 2px solid black;
+    width: 500px;
+}
+
+.pending {
+    display: flex;
+}
+
+.accept-decline {
+    display: flex;
+    flex-direction: column;
+}
+
+/* connections card */
+.flex-friends {
+    border: 2px solid black;
+    width: 500px;
+}

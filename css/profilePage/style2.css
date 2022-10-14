@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Questrial-Regular;
+}
+
+@font-face {
+    font-family: "Questrial-Regular";
+    src: url("./font-library/Questrial/Questrial-Regular.ttf");
+}
+
+
+body {
+    background-image: url("./images/background.jpg");
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+}
+
+/* ==== GENERAL ==== */
+.border-style {
+    border: 2px solid gray;
+    margin-bottom: 20px;
+    width: 250px;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.header-main {
+    background: sandybrown;
+    padding: 20px;
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.border-style-edu {
+    width: 500px; 
+    border: 2px solid gray;
+    margin-bottom: 20px;
+    background-color: white;
+    opacity: 0.8;
+}
+
+/* ================ NAV BAR ================ */
+
+.nav {
+    color: white;
+    background-color: sandybrown;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+
+.nav-title {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: gray;
+}
+
+.btn {
+    background-color: #69f1f1;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    height: 30px;
+    width: 80px;
+}
+
+
+/* ================ USER CARD ================ */
+
+
+.outer-box {
+    border: 2px solid grey;
+    width: 500px;
+    margin-bottom: 30px;
+    background-color: white;
+    opacity: 0.8;
+}
+
+#profile-header {
+    background-color: #117ce0;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+#profile-header img {
+    margin: 25px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.profile-content {
+    margin-left: 30px; 
+    margin-top: 35px; 
+}
+
+.flex-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex-icon img {
+    height: 20px;
+}
+
+.flex-icon a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ================ EDUCATION CARD ================ */
+
+.education-data {
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.education-data p {
+    margin-bottom: 20px;
+}
+
+.education-data h3 {
+    margin-top: 6px;
+    display: flex;
+}
+
+.education-data h5 {
+    color:gray;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+
+/* ================ CONNECTION REQUESTS ================ */
+.flex-request {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    margin: 10px;
+    gap: 5px; 
+}
+
+.flex-request img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+/* ================ YOUR CONNECTIONS ================ */
+.connection-flex {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding-left: 10px;
+    gap: 10px;
+}
+
+.connection-flex img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%
+}
+
+.view-bar {
+    color: black;
+    background-color: grey;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid grey;
+    padding-left: 20px;
+}
+
+.view-bar a {
+    text-decoration: none;
+    color: black;
+}
