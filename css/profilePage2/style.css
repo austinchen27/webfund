@@ -1,0 +1,379 @@
+/* ========= GENERAL ========= */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Tinos-Italic;
+}
+
+@font-face {
+  font-family: "Tinos-Italic";
+  src: url(./font-family/Tinos/Tinos-Italic.ttf);
+}
+
+body {
+  background-image: url(./images/background2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.layout {
+  display: flex;
+  justify-content: center;
+}
+
+.bio {
+  margin-right: 15px;
+}
+
+.network {
+  margin-left: 15px;
+}
+
+.user-card {
+  margin-bottom: 15px;
+}
+
+.connections-request {
+  margin-bottom: 15px;
+}
+
+/* ========= NAV BAR ========= */
+
+.navbar {
+  background-color: black;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 40px; 
+  opacity: 40%;
+}
+
+.nav-links {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  width: 55%;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: gray;
+  color: white;
+  box-shadow: 2px 2px black;
+  height: 30px;
+  width: 80px; 
+  border: 2px grey;
+  cursor: pointer;
+}
+
+/* ========= USER CARD ========= */
+.user-card {
+  border: 1px solid white;
+  width: 400px;
+}
+
+.header-1 {
+  background-color: lemonchiffon;
+  height: 50px; 
+  padding-top: 5px;
+  opacity: 60%;
+  padding-bottom: 5px;
+}
+
+.header-1 img {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  margin: 20px;
+  margin-top: 20px;
+}
+
+.bg-1 {
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  opacity: 40%;
+}
+
+.user-card-name {
+  margin-left: 15px; 
+  padding-top: 5px;
+}
+
+.user-card-name h2 {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.user-card-location {
+  color: black;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+
+
+.user-card-location img {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.user-edit {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.user-edit img {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.user-card-content {
+  color: black;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* ========= EDUCATION ========= */
+.edu {
+  border: 1px solid white;
+  width: 400px; 
+}
+
+.header-2 {
+  background-color: lemonchiffon;
+  height: 50px;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  opacity: 70%;
+  width: 100%;
+}
+
+.header-2 h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.bg-2 {
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  opacity: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.edu-school-1 {
+  margin-left: 15px;
+}
+
+.edu-school-1 h3 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.edu-school-1 h5 {
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+.edu-school-2 {
+  margin-left: 15px;
+  margin-bottom: 20px; 
+}
+
+.edu-school-2 h3 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.edu-school-2 h5 {
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+
+/* ========= CONNECTIONS REQUEST ========= */
+.connections-request {
+  border: 1px solid white;
+  width: 250px;
+}
+
+.connections-request h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.header-3 {
+  background-color: lemonchiffon;
+  height: 50px;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  opacity: 60%;
+}
+
+.bg-3 {
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  opacity: 40%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.f-request-1 { 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.f-request-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px; 
+}
+
+.f-request-1 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.f-request-2 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.friend-request {
+  display: flex;
+}
+
+.f-decision {
+  padding-right: 15px;
+}
+
+.f-decision img {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+/* ========= YOUR CONNECTIONS ========= */
+.your-connections {
+  border: 1px solid white;
+  width: 250px;
+}
+
+.header-4 {
+  background-color: lemonchiffon;
+  height: 50px;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  opacity: 60%;
+}
+
+.header-4 h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.bg-4 {
+  background-color: white;
+  padding-top: 5px;
+  opacity: 40%;
+}
+
+.f-current-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.f-current-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.f-current-3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.f-current-4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.f-current-1 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.f-current-2 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.f-current-3 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.f-current-4 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.view-bar {
+  color: white;
+  background-color: grey;
+  padding-bottom: 8px;
+  margin-top: 5px;
+  padding-top: 7px;
+  padding-left: 15px;
+}
+
+.view-bar a {
+  text-decoration: none;
+  color: lemonchiffon;
+}
