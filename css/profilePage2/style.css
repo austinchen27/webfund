@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
   font-family: "Tinos-Italic";
+}
+
+@font-face {
+  font-family: Tinos-Italic;
   src: url(./font-family/Tinos/Tinos-Italic.ttf);
 }
 
