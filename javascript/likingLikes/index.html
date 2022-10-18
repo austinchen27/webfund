@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Likes</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Montserrat:wght@200&family=Roboto:ital,wght@1,100&family=Tinos:ital@1&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- === NAVBAR === -->
+  <div class="navbar">
+    <h2>Network</h2>
+  </div>
+
+  <!-- === TITLE === -->
+  <div class="title">
+    <h2>Your Feed</h2>
+  </div>
+
+  <!-- === MAIN === -->
+  <div class="layout">
+    <div class="user-self">
+      <img src="./assets/user-circle.png" alt="user-circle">
+      <a href="#">Add on avatar</a>
+      <h3>James Doe</h3>
+    </div>
+
+    <div class="user-feed">
+
+      <div class="user-boxes">
+        <div class="user-title">
+          <div class="user-name">
+            <p>Neil M</p>
+          </div>
+          <div class="user-likes">
+            <p id="count-1">9 like(s)</p>
+            <button class="Like" onclick="add1()">Like</button>
+          </div>
+        </div>
+        <div class="description">
+          <p>I just set up this new discord bot, let me</p>
+          <p>know what you all think. <a href="#">link</a></p>
+        </div>
+      </div>
+
+      <div class="user-boxes">
+        <div class="user-title">
+          <div class="user-name">
+            <p>Nichole K</p>
+          </div>
+          <div class="user-likes">
+            <p id="count-2">12 like(s)</p>
+            <button class="Like" onClick="add2()">Like</button>
+          </div>
+        </div>
+        <div class="description">
+          <p>Just finished my <a href="#">next comic,</a> check it out.</p>
+        </div>
+      </div>
+
+      <div class="user-boxes">
+        <div class="user-title">
+          <div class="user-name">
+            <p>Jim R</p>
+          </div>
+          <div class="user-likes">
+            <p id="count-3">9 like(s)</p>
+            <button class="Like" onClick="add3()">Like</button>
+          </div>
+        </div>
+        <div class="description">
+          <p>I can't stop listening to the <a href="#">new album</a>.</p>
+          <p>Who else is liking it?</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
