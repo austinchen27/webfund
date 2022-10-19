@@ -236,6 +236,19 @@ body {
   align-items: center;
   padding-bottom: 5px;
   opacity: 60%;
+  padding-right: 24px; 
+}
+
+.head-numb-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  height: 40px;
+  width: 53px;
+  border-radius: 50%;
+  margin-left: 10px;
 }
 
 .bg-3 {
@@ -309,6 +322,7 @@ body {
 .header-4 h3 {
   width: 100%;
   text-align: center;
+  padding-right: 46px;
 }
 
 .bg-4 {
@@ -380,4 +394,17 @@ body {
 .view-bar a {
   text-decoration: none;
   color: lemonchiffon;
+}
+
+
+.head-numb-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  height: 40px;
+  width: 65px;
+  border-radius: 50%;
+  margin-left: 10px;
 }
