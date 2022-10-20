@@ -14,3 +14,6 @@ function add3() {
   var countElement = document.querySelector("#count-3");
   countElement.innerText = (count[2]++) + " like(s)"
 }
+
+
+

@@ -1,0 +1,41 @@
+function flatten(arr) {
+  var newArray = [];
+  for (var i = 0; i < arr.length; i++) {
+    for (var j = 0; j < arr[i].length; j++) {
+      newArray.push(arr[i][j]);
+    }
+  }
+  return newArray;
+}
+
+function isPresent(arr, val) {
+  for (var i = 0; i < arr.length; i++) {
+    for (var j = 0; j < arr[i].length; j++) {
+      if (arr[i][j] == val) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
+var x = isPresent(
+  [
+    [2, 5, 8],
+    [3, 6, 1],
+    [5, 7, 7]
+  ],
+  9
+);
+
+console.log(x);
+
+var x = flatten(
+  [
+    [2, 5, 8],
+    [3, 6, 1],
+    [5, 7, 7]
+  ]);
+
+console.log(x);
+
