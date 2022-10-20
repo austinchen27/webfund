@@ -53,5 +53,31 @@ var toppings = [
 ];
 
 function randomPizza(crustType, sauceType, cheeseType, toppings) {
-  Math.floor(Math.random() * 3)
+  var pizza = [];
+  crustType = crustType[Math.floor(Math.random() * crustType.length)];
+  pizza.push(crustType + " Crust");
+  sauceType = sauceType[Math.floor(Math.random() * sauceType.length)];
+  pizza.push(sauceType + " Sauce");
+  cheeseType = cheeseType[Math.floor(Math.random() * cheeseType.length)];
+  pizza.push(cheeseType + " Cheese");
+  toppings = toppings[Math.floor(Math.random() * toppings.length)];
+  pizza.push(toppings + " Topping")
+
+  console.log(pizza)
 }
+randomPizza(crustType, sauceType, cheeseType, toppings)
+
+// function randomPizza(crustType, sauceType, cheeseType, toppings) {
+//   var pizza = [];
+//   crustType = crustType[Math.floor(Math.random() * crustType.length)];
+//   pizza.push(crustType + " Crust");
+//   sauceType = sauceType[Math.floor(Math.random() * sauceType.length)];
+//   pizza.push(sauceType + " Sauce");
+//   cheeseType = cheeseType[Math.floor(Math.random() * cheeseType.length)];
+//   pizza.push(cheeseType + " Cheese");
+//   toppings = toppings[Math.floor(Math.random() * toppings.length)];
+//   pizza.push(toppings + " Topping")
+
+//   console.log(pizza)
+// }
+// randomPizza(crustType, sauceType, cheeseType, toppings)
